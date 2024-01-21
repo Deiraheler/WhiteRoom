@@ -15,7 +15,9 @@
         </style>
     </head>
     <body class="antialiased">
-    <div id="app"></div>
+    <div id="app">
+        <router-view></router-view>
+    </div>
     <script src="http://localhost:8080/js/app.js"></script>
     </body>
 </html>
